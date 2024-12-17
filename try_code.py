@@ -25,4 +25,4 @@ def run_user_program():
     for x in range(1, 62): print("-", end = "")
     input("\nPress 'Any Key' to return to the main menu... ")
     os.system('cls')
-    
+
