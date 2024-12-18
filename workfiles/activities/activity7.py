@@ -1,6 +1,7 @@
 #INTRODUCTION TO CONDITIONAL STATEMENTS
 
 def act7():
+    print("------------------- < Conditionals > -------------------\n")
     gold = 0
     miner = input("Hi, What is your name? ")
     isGold = input("Is the mineral gold? ")

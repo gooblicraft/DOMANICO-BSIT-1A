@@ -1,4 +1,5 @@
 def act16():
+    print("------------------- < Loops > -------------------\n")
     #for loop complete range
     for x in range(1 , 6): 
         for y in range(1, x + 1):

@@ -1,4 +1,5 @@
 def act17():
+    print("------------------- < Loops > -------------------\n")
     columns = eval(input("Enter number of Columns : "))
 
     for x in range(1,11): 

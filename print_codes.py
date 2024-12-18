@@ -148,3 +148,71 @@ print(person_name)
 print(person_age)   
 
 """
+
+intro_concatenation = """
+--------------------- < Concatenating > ---------------------
+Code: 
+
+str1 = "Hello"
+str2 = "World"
+result = str1 + " " + str2
+print(result)
+# Output: Hello World
+
+--------------------- <               > ---------------------            
+"""
+
+intro_escape_sequence = """
+--------------------- < Escape Sequence > ---------------------
+
+#Newline - moves to the next line
+print("Hello\nWorld")
+# Output:
+# Hello
+# World
+
+#Tab - insert tab
+print("Hello\tWorld")
+# Output: Hello    World
+
+#Backspace - deletes the previous character
+print("Hello\bWorld")
+# Output: HellWorld
+
+--------------------- <                 > ---------------------            
+"""
+
+intro_for_loop = """
+--------------------- < For Loop > ---------------------
+
+# Using a for loop to iterate over a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+    
+#Output
+apple
+banana
+cherry
+
+--------------------- <          > ---------------------            
+"""
+
+intro_while_loop = """
+--------------------- < While Loop > ---------------------
+
+# Using a while loop to print numbers 1 to 5
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+    
+#Output
+1
+2
+3
+4
+5
+
+--------------------- <            > ---------------------             
+"""

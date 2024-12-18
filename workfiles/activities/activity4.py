@@ -1,4 +1,5 @@
 def act4():
+    print("------------------- < Operators > -------------------\n")
     num1 = eval(input("Enter a number : "))
     num2 = eval(input("Enter another number : "))
     answer = num1 + num2

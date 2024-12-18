@@ -1,4 +1,5 @@
 def act18():
+    print("------------------- < Loops > -------------------\n")
     triangles = eval(input("Enter number of Triangles : "))
 
     for x in range(1, 8):

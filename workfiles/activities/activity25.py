@@ -1,4 +1,5 @@
 def act25():
+    print("------------------- < Lists > -------------------\n")
     #list
     courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 

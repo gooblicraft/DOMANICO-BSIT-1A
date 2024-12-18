@@ -4,34 +4,59 @@ def topics_definition(selected):
         os.system('cls')
         print("--------------------- < Definition > ---------------------\n")
         if selected == 1:
-            lines = [
-            "> The print statement is used to display output to the \nconsole.",
-            "> It is one of the most common and essential function in \npython to produce text output."]
+            from print_codes import intro_escape_sequence
+            isAccess = True
+            while isAccess:
+                lines = [
+                "> The print statement is used to display output to the \nconsole.",
+                "> It is one of the most common and essential function in \npython to produce text output."]
 
-            for line in lines:
-                for char in line:
-                    print(char, end="", flush=True)  # Print each character without a newline
-                    time.sleep(0.07)  # Add a delay between characters
-                print("\n")  # Add a newline after finishing a line
-            for y in range(1, 59): print("-", end = "")
-            
-            input("\nPress any key to return on the menu...")
-            os.system('cls')
+                for line in lines:
+                    for char in line:
+                        print(char, end="", flush=True)  # Print each character without a newline
+                        time.sleep(0.07)  # Add a delay between characters
+                    print("\n")  # Add a newline after finishing a line
+                    
+                time.sleep(6)
+                print("1.) Escape Sequence - used within strings to represent \ncharacters that cannot be directly included \nin the string.\n")
+                
+                for y in range(1, 59): print("-", end = "")
+                
+                ask = input("\nSelect the option you want to see more (press any key to return): ")
+                os.system('cls')
+                    
+                if ask == "1":
+                    os.system('cls')
+                    print(intro_escape_sequence), input("Press any key to return... "), os.system('cls'), print("--------------------- < Definition > ---------------------\n")
+                else: isAccess = False
             break
         
         elif selected == 2:
-            lines = [
-            "> The variable is used to store value to the console.",
-            "> To store a value, just simply assign '=' between the \nvariable name and the value."]
+            from print_codes import intro_concatenation
+            isAccess = True
+            while isAccess:
+                lines = [
+                "> The variable is used to store value to the console.",
+                "> To store a value, just simply assign '=' between the \nvariable name and the value."]
 
-            for line in lines:
-                for char in line:
-                    print(char, end="", flush=True)  # Print each character without a newline
-                    time.sleep(0.09)  # Add a delay between characters
-                print("\n")  # Add a newline after finishing a line
-            for y in range(1, 59): print("-", end = "")
-            input("\nPress any key to return on the menu...")
-            os.system('cls')
+                for line in lines:
+                    for char in line:
+                        print(char, end="", flush=True)  # Print each character without a newline
+                        time.sleep(0.09)  # Add a delay between characters
+                    print("\n")  # Add a newline after finishing a line
+                    
+                time.sleep(6)
+                print("1.) Concatenation - concatenation refers to joining two \nor more strings together to form a single string.")
+                print("You can concatenate strings sing the + operator \nor the join() method.\n ")
+                
+                for y in range(1, 59): print("-", end = "")
+                ask = input("\nSelect the option you want to see more (press any key to return): ")
+                os.system('cls')
+                        
+                if ask == "1":
+                    os.system('cls')
+                    print(intro_concatenation), input("Press any key to return... "), os.system('cls'), print("--------------------- < Definition > ---------------------\n")
+                else: isAccess = False
             break
         
         elif selected == 3:
@@ -142,22 +167,33 @@ def topics_definition(selected):
             break
         
         elif selected == 5:
-            lines = [
-            "> Loops are used to execute a block of code repeatedly.\n",
-            "> The two main types of loops in Python are for loops \nand while loops.\n"]
+            from print_codes import intro_for_loop, intro_while_loop
+            isAccess = True
+            while isAccess:
+                lines = [
+                "> Loops are used to execute a block of code repeatedly.\n",
+                "> The two main types of loops in Python are for loops \nand while loops.\n"]
 
-            for line in lines:
-                for char in line:
-                    print(char, end="", flush=True)  # Print each character without a newline
-                    time.sleep(0.07)  # Add a delay between characters
-                print(" ")  # Add a newline after finishing a line
-            print("\ta.) 'for' loop - used for iterating over \n\ta sequence (such as a list, tuple, dictionary, \n\tset, or string).\n"), time.sleep(6)
-            print("\tb.) 'while' loop - used to execute a block \n\tof code as long as a condition is true.\n"), time.sleep(5)
-            
-            for y in range(1, 59): print("-", end = "")
-            
-            input("\nPress any key to return on the menu...")
-            os.system('cls')
+                for line in lines:
+                    for char in line:
+                        print(char, end="", flush=True)  # Print each character without a newline
+                        time.sleep(0.07)  # Add a delay between characters
+                    print(" ")  # Add a newline after finishing a line
+                print("\t1.) 'for' loop - used for iterating over \n\ta sequence (such as a list, tuple, dictionary, \n\tset, or string).\n"), time.sleep(6)
+                print("\t1.) 'while' loop - used to execute a block \n\tof code as long as a condition is true.\n"), time.sleep(5)
+                
+                for y in range(1, 59): print("-", end = "")
+                
+                ask = input("\nSelect the option you want to see more (press any key to return): ")
+                os.system('cls')
+                        
+                if ask == "1":
+                    os.system('cls')
+                    print(intro_for_loop), input("Press any key to return... "), os.system('cls'), print("--------------------- < Definition > ---------------------\n")
+                elif ask == "2":
+                    os.system('cls')
+                    print(intro_while_loop), input("Press any key to return... "), os.system('cls'), print("--------------------- < Definition > ---------------------\n")
+                else: isAccess = False
             break
         
         elif selected == 6:
@@ -195,11 +231,11 @@ def topics_definition(selected):
                     isAccess = input("\nSelect option to see the code (press any key to return)... ")
                     os.system('cls')
                     
-                    if isAccess == "1": print(code1), input("Press any key to return... "), os.system('cls')
-                    elif isAccess == "2": print(code2), input("Press any key to return... "), os.system('cls')
-                    elif isAccess == "3": print(code3), input("Press any key to return... "), os.system('cls')
-                    elif isAccess == "4": print(code4), input("Press any key to return... "), os.system('cls')
-                    elif isAccess == "5": print(code5), input("Press any key to return... "), os.system('cls')
+                    if isAccess == "1": os.system('cls'), print(code1), input("Press any key to return... "), os.system('cls')
+                    elif isAccess == "2": os.system('cls'), print(code2), input("Press any key to return... "), os.system('cls')
+                    elif isAccess == "3": os.system('cls'), print(code3), input("Press any key to return... "), os.system('cls')
+                    elif isAccess == "4": os.system('cls'), print(code4), input("Press any key to return... "), os.system('cls')
+                    elif isAccess == "5": os.system('cls'), print(code5), input("Press any key to return... "), os.system('cls')
                     else: isContinue = False
             else: break
             
@@ -225,8 +261,10 @@ def topics_definition(selected):
                 os.system('cls')
                 
                 if ask == "1":
+                    os.system('cls')
                     print(builtIn_functions), input("Press any key to return... "), os.system('cls'), print("--------------------- < Definition > ---------------------\n")
                 elif ask == "2":
+                    os.system('cls')
                     print(userDef_functions), input("Press any key to return... "), os.system('cls'), print("--------------------- < Definition > ---------------------\n")
                 else: isContinue = False
             break

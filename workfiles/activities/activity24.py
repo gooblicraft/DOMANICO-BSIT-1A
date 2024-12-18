@@ -3,6 +3,6 @@
 from .activity23 import add
 
 def act24():
-    print("Activity 24 is all about understanding the import and Doc String\n")
+    print("(Activity 24 is all about understanding the import and Doc String)\n")
     add(21,21)
     help(add) # the docstring

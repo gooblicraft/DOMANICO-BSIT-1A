@@ -1,5 +1,6 @@
 
 def act10():
+	print("------------------- < Conditionals > -------------------\n")
 	name = input("Enter your name : ")
 	isStudent = input("Are yur a current student of DLL (yes/no) : ")
 

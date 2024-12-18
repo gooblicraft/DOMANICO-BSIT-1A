@@ -1,6 +1,7 @@
 #BIODATA ACTIVITY 04/09/2024
 
 def act3():
+      print("------------------- < Print Statements > -------------------\n")
       input("Fill up the following information for your biodata. " + "\n\nPress Any Key to Start Filling Out Your E-Biodata... ")
 
       fullName      = input        ("FULLNAME               : ")
