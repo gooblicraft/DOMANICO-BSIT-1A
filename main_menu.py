@@ -16,7 +16,7 @@ while isRun:
     os.system('cls')
     
     if isAccess.lower() == "no":
-        print("Hope you enjoy my Simple Program for my Finals Project in First Semester")
+        print("Thanks for using my simple Program for my Finals Project in First Semester")
         isRun = False
     elif isAccess.lower() == "yes":
         while True:
