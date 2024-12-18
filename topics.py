@@ -180,7 +180,7 @@ def topics_definition(selected):
                         time.sleep(0.07)  # Add a delay between characters
                     print(" ")  # Add a newline after finishing a line
                 print("\t1.) 'for' loop - used for iterating over \n\ta sequence (such as a list, tuple, dictionary, \n\tset, or string).\n"), time.sleep(6)
-                print("\t1.) 'while' loop - used to execute a block \n\tof code as long as a condition is true.\n"), time.sleep(5)
+                print("\t2.) 'while' loop - used to execute a block \n\tof code as long as a condition is true.\n"), time.sleep(5)
                 
                 for y in range(1, 59): print("-", end = "")
                 
