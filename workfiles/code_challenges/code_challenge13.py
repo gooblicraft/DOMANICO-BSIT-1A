@@ -1,5 +1,6 @@
 def code_C13():
-#For loop na diamond using numbers instead of asteris
+    print("------------------- < Loops > -------------------\n")
+    #For loop na diamond using numbers instead of asteris
     for x in range(1,6):
         for a in range(6, x , -1):
             print(" ", end= " ")

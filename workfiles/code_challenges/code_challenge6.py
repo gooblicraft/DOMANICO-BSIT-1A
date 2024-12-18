@@ -1,5 +1,5 @@
 def code_C6():
-    
+    print("------------------- < Conditionals > -------------------\n")
     print("-------------------- PASSED OR FAILED PROGRAM -------------------")
     print(input("Press enter to start the program."))
 

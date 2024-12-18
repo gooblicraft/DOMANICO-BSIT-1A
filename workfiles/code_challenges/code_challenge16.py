@@ -1,5 +1,6 @@
 import os
 def code_C16():
+    print("------------------- < Functions > -------------------\n")
     #Create a program of filipino denomination using a function by Domanico
 
     try:

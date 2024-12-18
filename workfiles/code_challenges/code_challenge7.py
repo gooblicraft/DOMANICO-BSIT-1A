@@ -1,4 +1,5 @@
 def code_C7():
+    print("------------------- < Conditionals > -------------------\n")
     isBuy = input("Did you buy a grocery (yes/no): ")
     
     if isBuy.lower() == "yes":        

@@ -1,4 +1,5 @@
 def code_C12():
+    print("------------------- < Loops > -------------------\n")
     #for loop complete range
     for x in range(1 , 6): 
         for a in range (6, x , -1):

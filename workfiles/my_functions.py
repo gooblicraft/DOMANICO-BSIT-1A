@@ -68,7 +68,7 @@ def query_activities():
         to_open = input("\nSelect the activity to open (any key to 'exit') --> ")
         os.system('cls')
         
-        if to_open == "1":pass
+        if to_open == "1":print("The activity 1 is a typing test... ")
         if to_open == "2":act2(), ask_pass()
         elif to_open == "3":act3(), ask_pass()
         elif to_open == "4":act4(), ask_pass()
@@ -110,7 +110,7 @@ def query_code_challenges():
     
     if to_open == "1":code_C1(), ask_pass()
     if to_open == "2":code_C2(), ask_pass()
-    elif to_open == "3":pass
+    elif to_open == "3":act3(), ask_pass()
     elif to_open == "4":code_C4(), ask_pass()
     elif to_open == "5":code_C5(), ask_pass()
     elif to_open == "6":code_C6(), ask_pass()
